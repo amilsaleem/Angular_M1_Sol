@@ -8,6 +8,7 @@
     $scope.check = function () {
       var totalmeal=$scope.name;
       if (totalmeal==undefined || totalmeal=="") {
+        
         $scope.msg="Please Enter Data First";
       }
       else {
