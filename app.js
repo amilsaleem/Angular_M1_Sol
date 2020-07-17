@@ -2,13 +2,13 @@
   "use strict";
 
   angular.module('Meal',[])
-  .controller('mealMenu',eat);
+  .controller('LunchCheckController',eat);
   eat.$inject=['$scope'];
   function eat($scope) {
     $scope.check = function () {
       var totalmeal=$scope.name;
       if (totalmeal==undefined || totalmeal=="") {
-        
+
         $scope.msg="Please Enter Data First";
       }
       else {
